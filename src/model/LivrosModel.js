@@ -5,6 +5,7 @@ class LivrosModel{
         return bibliotecaRepos.lista();
     }
     adicionaLivro(livro){
+        console.log("teste")
         return bibliotecaRepos.adiciona(livro)
     }
 }
